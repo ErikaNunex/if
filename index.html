@@ -8,17 +8,22 @@
 </head>
 <body>
     <script>
-        //se a idade for maior ou igual a 19 é maior de idade, caso contrario e até 5: menor de idade e criança
-        let idade = 5;
-        if (idade >=19) {
+        //se a idade for maior ou igual a 19 é maior de idade, caso contrario e até 5: menor de idade e criança.
+            // se a idade for igual ou menor que 0 é invalida.
+        let idade = 0;
+        if (idade<=0){
+    console.log("idade invalido")
+        }else{
+            if (idade >=19) {
             console.log("maior de idade")
             }else{
                 if(idade <=5){
             console.log("criança") 
                 }
-                console.log("menor de idade")
-                
+                console.log("menor de idade")                    
+                }
         }
+        
     </script>
 </body>
 </html>
